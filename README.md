@@ -1,93 +1,62 @@
-# [HTML5 Boilerplate](https://html5boilerplate.com/)
+# What everything in the source folder does. 
+ - doc folder: contains all the proper documentation
+ - img folder: contains all the image elements
+ - js folder: contains all the javascript code
+ - .editorconfig: will be able to change the styling of how the website will utilize spacing
+-	.gitattributes: attributes that will be used for web projects
+-	.gitignore: a file that will be ignored by github
+-	404.html: a general 404 error splash page to displace unknown landing pages
+-	broswerconfig.xml: will configure the size of the title.png size based on the broswer
+-	favicon.ico: the favicon image of the website
+-	humans.txt: a document highlighting an ordered style of who the contributor are.
+-	icon.png: an icon sized image that is used on the website
+-	index.html: the generala splash page of the website
+-	robots.txt: is a resource the webiste uses to make sure robots aren't spamming login entries 
+-	site.webmanifest: makes sure the the image loaded is coming from icon and sets the background and theme color
+-	title-wide.png: contains a wider same image of title.png
+-	title.png: contains an image of the title
 
-[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
-[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
+#	Line by line Analysis of index.html | Documentation displayed via C++ inline comment style (//)
+```html
+<!doctype html> // Will notify the browser that this is an html file.
+ <html class="no-js" lang=""> // Creates a class called no-javascript.
+ <head> // creates a head tag.
+  <meta charset="utf-8">  // will be explained in it's own section.
+  <meta http-equiv="x-ua-compatible" content="ie=edge"> // will adjust the content compatibility to microsoft edge
+  <title></title> // creates a title tag
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> // will adjust the viewpoint based on the device's display
 
-HTML5 Boilerplate is a professional front-end template for building
-fast, robust, and adaptable web apps or sites.
+  <link rel="manifest" href="site.webmanifest"> // a site link to the webmanifest in source
+  <link rel="apple-touch-icon" href="icon.png"> // A link to the apple's touch icon for a mobile ios device
+  <!-- Place favicon.ico in the root directory -->
 
-This project is the product of years of iterative development and
-community knowledge. It does not impose a specific development
-philosophy or framework, so you're free to architect your code in the
-way that you want.
+  <link rel="stylesheet" href="css/normalize.css"> // a css style reference to normal
+  <link rel="stylesheet" href="css/main.css"> // a css style reference to main
+</head> // the end of the body tag
 
-* Homepage: [https://html5boilerplate.com/](https://html5boilerplate.com/)
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Twitter: [@h5bp](https://twitter.com/h5bp)
+<body> // the beginning of the body tag
+  <!--[if lte IE 9]> // a version checking error to that will display if a browser is outdated
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
 
+  <!-- Add your site or application content here -->
+  <p>Hello world! This is HTML5 Boilerplate.</p> // a paragraph with a HTML5 boilerplate text
+  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script> // a script that will be able to use modernized periphials tied to certain devices
+  <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script> // will check a jquery hash
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script> // will write to the jquery 
+  <script src="js/plugins.js"></script> // a script that will load plugins
+  <script src="js/main.js"></script> // a script that will load main
 
-## Quick start
-
-Choose one of the following options:
-
-- Download the latest stable release from
-  [html5boilerplate.com](https://html5boilerplate.com/).
-- Clone the git repo — `git clone
-  https://github.com/h5bp/html5-boilerplate.git` - and checkout the
-  [tagged release](https://github.com/h5bp/html5-boilerplate/releases)
-  you'd like to use.
-- Install with [npm](https://www.npmjs.com/): `npm install html5-boilerplate` and pull in what you need from the resulting `node_modules/html5-boilerplate/dist`
-- Install with [yarn](https://yarnpkg.com/): `yarn add html5-boilerplate`
-
-
-## Features
-
-* HTML5 ready. Use the new elements with confidence.
-* Designed with progressive enhancement in mind.
-* Includes:
-  * [`Normalize.css`](https://necolas.github.com/normalize.css/)
-    for CSS normalizations and common bug fixes
-  * [`jQuery`](https://jquery.com/) via CDN with [SRI Hash](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) and a local fallback
-  * A custom build of [`Modernizr`](https://modernizr.com/) for feature
-    detection
-  * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
-    that, among other, improve the web site's performance and security
-* Placeholder CSS Media Queries.
-* Useful CSS helper classes.
-* Default print styles, performance optimized.
-* An optimized version of the Google Universal Analytics snippet.
-* Protection against any stray `console` statements causing JavaScript
-  errors in older browsers.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
-
-
-## Browser support
-
-* Chrome *(latest 2)*
-* Edge *(latest 2)*
-* Firefox *(latest 2)*
-* Internet Explorer 9+
-* Opera *(latest 2)*
-* Safari *(latest 2)*
-
-*This doesn't mean that HTML5 Boilerplate cannot be used in older browsers,
-just that we'll ensure compatibility with the ones mentioned above.*
-
-If you need legacy browser support you
-can use [HTML5 Boilerplate v4](https://github.com/h5bp/html5-boilerplate/tree/v4) (IE 6+, Firefox 3.6+, Safari 4+),
-or [HTML5 Boilerplate v5](https://github.com/h5bp/html5-boilerplate/tree/v5.0.0) (IE8+). They are no longer actively developed.
-
-
-## Documentation
-
-Take a look at the [documentation table of contents](dist/doc/TOC.md).
-This documentation is bundled with the project which makes it 
-available for offline reading and provides a useful starting point for
-any documentation you want to write about your project.
-
-
-## Contributing
-
-Hundreds of developers have helped to make the HTML5 Boilerplate. Anyone is welcome to [contribute](.github/CONTRIBUTING.md),
-however, if you decide to get involved, please take a moment to review
-the [guidelines](.github/CONTRIBUTING.md):
-
-* [Bug reports](.github/CONTRIBUTING.md#bugs)
-* [Feature requests](.github/CONTRIBUTING.md#features)
-* [Pull requests](.github/CONTRIBUTING.md#pull-requests)
-
-
-## License
-
-The code is available under the [MIT license](LICENSE.txt).
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview') // a script that will set a function to google analytics to process data
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script> // a page that will periodically sync and send the source to where the data will be collected
+</body> // the end of the body tag
+ 
+</html> // the end of the html tag
+```
+# UTF-8
+- UTF-8 is a character code standard that was the successor to ASCII. UTF or otherwise known as Unicode, is a generally character code format that can properly assess as to where and how certain character regardless of language can be transformed into an 8bit like notation, such as associating the American English 'A' character to 65 in binary, to thus then be translated bits to code to be used in any individual formal language. 
