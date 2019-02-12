@@ -59,4 +59,4 @@
 </html> // the end of the html tag
 ```
 # UTF-8
-- UTF-8 is a character code standard that was the successor to ASCII. UTF or otherwise known as Unicode, is a generally character code format that can properly assess as to where and how certain character regardless of language can be transformed into an 8bit like notation, such as associating the American English 'A' character to 65 in binary, to thus then be translated bits to code to be used in any individual formal language. 
+- UTF-8 is a character code standard that was the successor to ASCII. UTF or otherwise known as Unicode, is a character format that can assess how certain characters can be transformed into an 8bit notation. For example, in Unicode the English letter 'A' is associated with 65 in binary. This type of format can be used in translating letters into bits from any language with an alphabet. 
