@@ -10,7 +10,7 @@
 -	favicon.ico: the favicon image of the website
 -	humans.txt: a document highlighting an ordered style of who the contributor are.
 -	icon.png: an icon sized image that is used on the website
--	index.html: the general a splash page of the website
+-	index.html: the general splash page of the website
 -	robots.txt: is a resource the website uses to make sure robots are not spamming login entries 
 -	site.webmanifest: makes sure the the image loaded is coming from icon and sets the background and theme color
 -	title-wide.png: contains a wider same image of title.png
