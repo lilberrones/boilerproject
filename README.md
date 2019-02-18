@@ -84,3 +84,31 @@
 [Read.me file](https://github.com/lilberrones/boilerproject/blob/master/README.md)
 
 ![alt_text](images/remotes.png)
+
+# (Tutorial) How to make a collaborative project on Git
+
+1) Have your team set up a github accounts
+
+2) Designate someone as the team leader of the project
+
+3) Have the team leader create a repository on github and invite the other members to have access to the repo
+
+4) Have the other team members clone this repository from their vcs software
+
+5) Have each individual member create a branch to conduct work from
+
+6) Each member of the group must conduct this order to properly save and share each other's work.
+
+7) for each change to be uploaded you must commit, as in report to the vcs that there will be an incoming change
+ 
+8) you will need to go into the vcs menu and click commit, once the menu opens you will
+  report what the change is in the form of task: added something , fixed: spelling errors, etc
+  
+9) Once your changes are committed you will push the changes via the vcs menu
+ 
+10) Your partners will then pull the changes from the branch that was previously worked on.
+ 
+11) After it was determined that the changes are sufficient, you will need to combine the changes into the master branch, aka merge.
+
+12) to Merge you would need to go to the branch you would want merge and select the option called "merge into current".
+
