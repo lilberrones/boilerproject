@@ -60,7 +60,7 @@
 ```
 # UTF-8
 - UTF-8 is a character code standard that was the successor to ASCII. UTF or otherwise known as Unicode, is a character format that can assess how certain characters can be transformed into an 8bit notation. For example, in Unicode the English letter 'A' is associated with 65 in binary. This type of format can be used in translating letters into bits from any language with an alphabet. 
-#Timeline of the Internet
+# Timeline of the Internet
 - 1957 - ARPA: Created by the US with a purpose of researching new sciences and technologies.
 - 1962 - J.C.R Licklider: Proposes for a global network of computers.
 - 1965 - MIT: Two computers at MIT Lincoln Lab communicate with one another using packet-switching technology.
