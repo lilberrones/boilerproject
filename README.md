@@ -60,3 +60,23 @@
 ```
 # UTF-8
 - UTF-8 is a character code standard that was the successor to ASCII. UTF or otherwise known as Unicode, is a character format that can assess how certain characters can be transformed into an 8bit notation. For example, in Unicode the English letter 'A' is associated with 65 in binary. This type of format can be used in translating letters into bits from any language with an alphabet. 
+#Timeline of the Internet
+- 1957 - ARPA: Created by the US with a purpose of researching new sciences and technologies.
+- 1962 - J.C.R Licklider: Proposes for a global network of computers.
+- 1965 - MIT: Two computers at MIT Lincoln Lab communicate with one another using packet-switching technology.
+- 1969 - ARPANET: The US Depeartment of Defense funds the Advanced Research Projects Agency Network or ARPANET.
+- 1972 - Network Control Program: The Transmission Control Protocol is introduced as a way for ARPANET computers to communicate with one another.
+- 1974 - ISP: The first Internet Service Provider (ISP) is born with the introduction of a commercial version of ARPANET, known as Telenet.
+- 1982 - TCP: Transmission Control Protocol (TCP) and Internet Protocol (IP), as the protocol suite, commonly known as TCP/IP, emerge as the protocol for ARPANET.
+- 1983 - DNS: The Domain Name System (DNS) establishes the familiar .edu, .gov, .com, .mil, .org, .net, and .int system for naming websites. 
+- 1986 - Craig Partridge: designs how email is routed using domain names.
+- 1987 - The Hitchhiker’s Guide to the Internet is Published
+- 1989 - The World wide web: invented by Sir Timothy John "Tim" Berners-Lee, an engineer and computer scientist from Great Britin, working as a professor at MIT and CERN Laboratory.
+- 1991 - CERN: introduces the World Wide Web to the public.
+- 1994 - Netscape: Netscape Communications is born. Microsoft creates a Web browser for Windows 95.
+- 1998 - ICANN: Internet Corporation for Assigned Names and Numbers (ICANN) was formed.
+- 1999 - AOL buys Netscape.
+- 2000 - Websites like Yahoo and eBay are hit by service attacks. Shows that internet is very vulnerable and easy to attack. AOL merges with Time Warner.
+- 2001 - Judge shuts down Napster. Must find a way for users to stop sharing copyrighted information. 
+- 2003 - Platform WordPress is launched. 
+- 2004 - Facebook launches, social networking begins. Mozilla launches new web browzer, Mozilla Firefox. 
