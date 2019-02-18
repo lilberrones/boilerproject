@@ -13,3 +13,8 @@
 - 1991 - CERN: introduces the World Wide Web to the public.
 - 1994 - Netscape: Netscape Communications is born. Microsoft creates a Web browser for Windows 95.
 - 1998 - ICANN: Internet Corporation for Assigned Names and Numbers (ICANN) was formed.
+- 1999 - AOL buys Netscape.
+- 2000 - Websites like Yahoo and eBay are hit by service attacks. Shows that internet is very vulnerable and easy to attack. AOL merges with Time Warner.
+- 2001 - Judge shuts down Napster. Must find a way for users to stop sharing copyrighted information. 
+- 2003 - Platform WordPress is launched. 
+- 2004 - Facebook launches, social networking begins. Mozilla launches new web browzer, Mozilla Firefox. 
