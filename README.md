@@ -6,12 +6,12 @@
 -	.gitattributes: attributes that will be used for web projects
 -	.gitignore: a file that will be ignored by github
 -	404.html: a general 404 error splash page to displace unknown landing pages
--	broswerconfig.xml: will configure the size of the title.png size based on the broswer
+-	broswerconfig.xml: will configure the size of the title.png size based on the browser
 -	favicon.ico: the favicon image of the website
 -	humans.txt: a document highlighting an ordered style of who the contributor are.
 -	icon.png: an icon sized image that is used on the website
--	index.html: the generala splash page of the website
--	robots.txt: is a resource the website uses to make sure robots aren't spamming login entries 
+-	index.html: the general a splash page of the website
+-	robots.txt: is a resource the website uses to make sure robots are not spamming login entries 
 -	site.webmanifest: makes sure the the image loaded is coming from icon and sets the background and theme color
 -	title-wide.png: contains a wider same image of title.png
 -	title.png: contains an image of the title
