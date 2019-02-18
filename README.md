@@ -33,7 +33,7 @@
 
   <link rel="stylesheet" href="css/normalize.css"> // a css style reference to normal
   <link rel="stylesheet" href="css/main.css"> // a css style reference to main
-</head> // the end of the body tag
+</head> // the end of the head tag
 
 <body> // the beginning of the body tag
   <!--[if lte IE 9]> // a version checking error to that will display if a browser is outdated
