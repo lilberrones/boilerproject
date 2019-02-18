@@ -82,3 +82,5 @@
 - 2004 - Facebook launches, social networking begins. Mozilla launches new web browzer, Mozilla Firefox. 
 
 [Read.me file](https://github.com/lilberrones/boilerproject/blob/master/README.md)
+
+![alt_text](images/remotes.png)
