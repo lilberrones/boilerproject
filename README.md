@@ -87,28 +87,54 @@
 
 # (Tutorial) How to make a collaborative project on Git
 
-1) Have your team set up a github accounts
+1) Have your team set up their own individual github accounts.
 
-2) Designate someone as the team leader of the project
+2) Designate someone as the team leader of the project.
 
-3) Have the team leader create a repository on github and invite the other members to have access to the repo
+3) Instruct the team leader to create a repository on github, once created the leader will invite the other members to have collaborative access to the repo.
 
-4) Have the other team members clone this repository from their vcs software
+4) Have the other team members clone this newly created repository to WebStorm.
 
-5) Have each individual member create a branch to conduct work from
+5) Once WebStorm is opened for each member, they will create their own individual member branch to conduct work from.
 
-6) Each member of the group must conduct this order to properly save and share each other's work.
+6) This process will ensure each member will be properly able post and share each other's work.
 
-7) for each change to be uploaded you must commit, as in report to the vcs that there will be an incoming change
+7) In order for someone to save their work, they will need to do a process called a commit, which is a report to the vcs that there will be an incoming change to the repository.
  
-8) you will need to go into the vcs menu and click commit, once the menu opens you will
-  report what the change is in the form of task: added something , fixed: spelling errors, etc
+8) To do this you will need to go into the vcs menu and click commit, once the menu opens you will
+  report what the change is in the form of task: added something , fixed: spelling errors, or feature: made something easier to read.
   
-9) Once your changes are committed you will push the changes via the vcs menu
+9) Once your changes are committed, you will push the changes the final changes via the vcs menu.
  
-10) Your partners will then pull the changes from the branch that was previously worked on.
+10) Your partners will then pull the changes from the branch that were previously worked on.
  
 11) After it was determined that the changes are sufficient, you will need to combine the changes into the master branch, aka merge.
 
-12) to Merge you would need to go to the branch you would want merge and select the option called "merge into current".
+12) In order to complete a Merge, you would need to go to the branch you would want merge, you must move your mouse cursor to the bottom right and click on the branch and select the option called "merge into current".
+
+# Term Definitions
+
+Git:
+
+GitHub:
+
+Repository:
+
+Clone:
+
+Commit:
+
+Push:
+
+Pull:
+
+Branch:
+
+Merge:
+
+Merge Conflict:
+
+Fetch:
+
+Remote:
 
