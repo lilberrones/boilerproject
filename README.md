@@ -110,31 +110,31 @@
  
 11) After it was determined that the changes are sufficient, you will need to combine the changes into the master branch, aka merge.
 
-12) In order to complete a Merge, you would need to go to the branch you would want merge, you must move your mouse cursor to the bottom right and click on the branch and select the option called "merge into current".
+12) In order to complete a Merge, you would need to go to the branch you would want merge, from there you must move your mouse cursor to the bottom right and click on the branch and select the option called "merge into current".
 
 # Term Definitions
 
-Git:
+Git: version-control system for tracking changes in source code during the stages of software/web development.
 
-GitHub:
+GitHub: a web hosting service that operates under the version control system called Git.
 
-Repository:
+Repository: a location where central data is stored and managed.
 
-Clone:
+Clone: a command in Git used to copy an existing repository into another.
 
-Commit:
+Commit: a call to a repository stating that there will be an incoming change being reported to the repository.
 
-Push:
+Push: a command used to upload changes to a repository.
 
-Pull:
+Pull: a command used to download changes from a repository.
 
-Branch:
+Branch: a movable/editable copy of a master.
 
-Merge:
+Merge: the process of combining and integrating changes into master source code.
 
-Merge Conflict:
+Merge Conflict: the idea that certain elements of a merge can not be executed due to there being already existing unaccounted for changes.
 
-Fetch:
+Fetch: a command used to download commits, files, and references from a remote repository into a local repo.
 
-Remote:
+Remote: the idea of splitting an already existing repository to different location to be accessed by different people at the same time.
 
