@@ -114,7 +114,7 @@
 
 # Term Definitions
 
-Git: version-control system for tracking changes in source code during the stages of software/web development.
+Git: a version-control system for tracking changes in source code during the stages of software/web development.
 
 GitHub: a web hosting service that operates under the version control system called Git.
 
@@ -132,9 +132,9 @@ Branch: a movable/editable copy of a master.
 
 Merge: the process of combining and integrating changes into master source code.
 
-Merge Conflict: the idea that certain elements of a merge can not be executed due to there being already existing unaccounted for changes.
+Merge Conflict: the idea that certain elements of a merge can not be executed due to there being already existing unaccounted change.
 
 Fetch: a command used to download commits, files, and references from a remote repository into a local repo.
 
-Remote: the idea of splitting an already existing repository to different location to be accessed by different people at the same time.
+Remote: the idea of splitting an already existing repository to different locations to be accessed by different people at the same time.
 
