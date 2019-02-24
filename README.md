@@ -101,14 +101,14 @@
 6) This process will ensure each member will be properly able post and share each other's work.
 
 7) In order for someone to save their work, they will need to do a process called a commit, which is a report to the vcs that there will be an incoming change to the repository.
- ![alt_text](images/step 6.PNG)
+![alt_text](images/step 6.PNG)
 8) To do this you will need to go into the vcs menu and click commit, once the menu opens you will
   report what the change is in the form of task: added something , fixed: spelling errors, or feature: made something easier to read.
   
 9) Once your changes are committed, you will push the changes the final changes via the vcs menu.
- ![alt_text](images/step 9.PNG)
+![alt_text](images/step 9.PNG)
 10) Your partners will then pull the changes from the branch that were previously worked on.
- ![alt_text](images/step 10.PNG)
+![alt_text](images/step 10.PNG)
 11) After it was determined that the changes are sufficient, you will need to combine the changes into the master branch, aka merge.
 
 12) In order to complete a Merge, you would need to go to the branch you would want merge, from there you must move your mouse cursor to the bottom right and click on the branch and select the option called "merge into current".
