@@ -88,30 +88,33 @@
 # (Tutorial) How to make a collaborative project on Git
 
 1) Have your team set up their own individual github accounts.
-
+![alt_text](images/step 1.PNG)
 2) Designate someone as the team leader of the project.
 
 3) Instruct the team leader to create a repository on github, once created the leader will invite the other members to have collaborative access to the repo.
-
+![alt_text](images/step 2.PNG)
+---
+![alt_text](images/step 3.PNG)
 4) Have the other team members clone this newly created repository to WebStorm.
-
+![alt_text](images/step 4.PNG)
 5) Once WebStorm is opened for each member, they will create their own individual member branch to conduct work from.
-
+![alt_text](images/step 5.PNG)
 6) This process will ensure each member will be properly able post and share each other's work.
 
 7) In order for someone to save their work, they will need to do a process called a commit, which is a report to the vcs that there will be an incoming change to the repository.
- 
+ ![alt_text](images/step 6.PNG)
 8) To do this you will need to go into the vcs menu and click commit, once the menu opens you will
   report what the change is in the form of task: added something , fixed: spelling errors, or feature: made something easier to read.
   
 9) Once your changes are committed, you will push the changes the final changes via the vcs menu.
- 
+ ![alt_text](images/step 9.PNG)
 10) Your partners will then pull the changes from the branch that were previously worked on.
- 
+ ![alt_text](images/step 10.PNG)
 11) After it was determined that the changes are sufficient, you will need to combine the changes into the master branch, aka merge.
 
 12) In order to complete a Merge, you would need to go to the branch you would want merge, from there you must move your mouse cursor to the bottom right and click on the branch and select the option called "merge into current".
-
+![alt_text](images/step 11.PNG)
+---
 # Term Definitions
 
 Git: a version-control system for tracking changes in source code during the stages of software/web development.
