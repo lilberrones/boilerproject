@@ -112,7 +112,7 @@
 11) After it was determined that the changes are sufficient, you will need to combine the changes into the master branch, aka merge.
 
 12) In order to complete a Merge, you would need to go to the branch you would want merge, from there you must move your mouse cursor to the bottom right and click on the branch and select the option called "merge into current".
-![alt_text](images/step 11.PNG)
+![alt_text](images/step 11.png)
 
 # Term Definitions
 
