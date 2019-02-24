@@ -83,7 +83,7 @@
 
 [Read.me file](https://github.com/lilberrones/boilerproject/blob/master/README.md)
 
-![alt_text](images/remotes.png)
+![alt_text](images/remotes.PNG)
 
 # (Tutorial) How to make a collaborative project on Git
 
