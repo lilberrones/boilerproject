@@ -93,7 +93,6 @@
 
 3) Instruct the team leader to create a repository on github, once created the leader will invite the other members to have collaborative access to the repo.
 ![alt_text](images/step 2.PNG)
----
 ![alt_text](images/step 3.PNG)
 4) Have the other team members clone this newly created repository to WebStorm.
 ![alt_text](images/step 4.PNG)
@@ -114,7 +113,7 @@
 
 12) In order to complete a Merge, you would need to go to the branch you would want merge, from there you must move your mouse cursor to the bottom right and click on the branch and select the option called "merge into current".
 ![alt_text](images/step 11.PNG)
----
+
 # Term Definitions
 
 Git: a version-control system for tracking changes in source code during the stages of software/web development.
