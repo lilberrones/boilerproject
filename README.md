@@ -95,7 +95,6 @@
 ![alt_text](images/step2.PNG)
 ![alt_text](images/step3.PNG)
 4) Have the other team members clone this newly created repository to WebStorm.
-![alt_text](images/clone_url.PNG)
 ![alt_text](images/step4.PNG)
 5) Once WebStorm is opened for each member, they will create their own individual member branch to conduct work from.
 ![alt_text](images/step5.PNG)
@@ -104,8 +103,7 @@
 7) In order for someone to save their work, they will need to do a process called a commit, which is a report to the vcs that there will be an incoming change to the repository.
 ![alt_text](images/step6.PNG)
 8) To do this you will need to go into the vcs menu and click commit, once the menu opens you will
-  report what the change is in the form of task: added something , fixed: spelling errors, or feature: made something easier to read.
-![alt_text](images/vcs_commit.PNG)  
+  report what the change is in the form of task: added something , fixed: spelling errors, or feature: made something easier to read.  
 9) Once your changes are committed, you will push the changes the final changes via the vcs menu.
 ![alt_text](images/step9.PNG)
 10) Your partners will then pull the changes from the branch that were previously worked on.
